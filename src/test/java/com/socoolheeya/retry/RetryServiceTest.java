@@ -15,11 +15,5 @@ class RetryServiceTest {
     void retry() {
         String msg = retryService.retry("123123");
         System.out.println("##### msg : " + msg);
-
-
-    }
-
-    @Test
-    void getRecover() {
     }
 }
